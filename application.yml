@@ -1,19 +1,20 @@
-spring:
- profiles:
-  active: dev
+spring: 
+ profiles: 
+  active: 
+  - dev
 
 
 ---
 
-spring:
+spring: 
  profiles: dev
- application:
+ application: 
   name: microservicecloud-config-zx-dev
   
 
 ---
 
-spring:
+spring: 
  profiles: test
- application:
+ application: 
   name: microservicecloud-config-zx-test
